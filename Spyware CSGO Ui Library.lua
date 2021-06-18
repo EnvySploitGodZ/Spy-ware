@@ -29,7 +29,7 @@ function Library:GetSide(LeftSize, RightSize)
 end
 
 function Library:CreateWindow(title, color)
-    title = title or "Bracket Lib V2"
+    title = title or "Spyware"
     color = color and Library:GetColor(color) or Color3.fromRGB(255, 19, 19)
 
     -- Window Main
